@@ -1,4 +1,4 @@
-# geometric_lib_2
+# geometric\_lib\_2
 
 ## Introductory
 
@@ -31,8 +31,10 @@ printf(f"The perimeter of the square is {perimeter(a)}")
 
 The output will be:
 
-> The area of the square is 144
-> The perimeter of the square is 48
+```
+The area of the square is 144
+The perimeter of the square is 48
+```
 
 ### Work with circle
 
@@ -45,8 +47,10 @@ print(f"The perimeter of the circle is {round(perimeter(r), 3)}")
 
 The output will be:
 
-> The area of the circle is 78.54
-> The perimeter of the circle is 31.416
+```
+The area of the circle is 78.54
+The perimeter of the circle is 31.416
+```
 
 ### Work with rectangle
 
@@ -60,8 +64,10 @@ print(f"The perimeter of the rectangle is {perimeter(a, b)}")
 
 The output will be:
 
-> The area of the rectangle is 40
-> The perimeter of the rectangle is 26
+```
+The area of the rectangle is 40
+The perimeter of the rectangle is 26
+```
 
 ### Work with triangle
 
@@ -75,22 +81,24 @@ print(f"The perimeter of the triangle is {perimeter(a, b, c)}")
 
 The output will be:
 
-> The area of the triangle is 24.0
-> The perimeter of the triangle is 24
+```
+The area of the triangle is 24.0
+The perimeter of the triangle is 24
+```
 
 ## Referential information
 
 ### Math formulas
 
 #### Area
-- Circle: $$ S = πR² $$
-- Rectangle: $$ S = ab $$
-- Square: $$ S = a² $$
+- Circle: S = πR²
+- Rectangle: S = ab
+- Square: S = a²
 
 #### Perimeter
-- Circle: $$ P = 2πR $$
-- Rectangle: $$ P = 2a + 2b $$
-- Square: $$ P = 4a $$
+- Circle: P = 2πR
+- Rectangle: P = 2a + 2b
+- Square: P = 4a
 
 ### History of changes
 
@@ -201,5 +209,3 @@ commit ca67fea87f751e56cad7fb23fdae5169342a002c
 message: The functions from the first two files square.py and circle.py were also documented
 
 In this commit all the function in all the files were documented, now it's easier to understand what each of them does
-
-
